@@ -305,7 +305,7 @@ header .container div{
     width: 250px;
     object-fit: cover;
     object-fit: contain;
-    object-fit: fill ;
+    
 }
 
 .mes_realisation .mov{
@@ -511,6 +511,26 @@ header .container div{
     left: -80px;
     margin-top: 190px;
 
+ }
+ .contact .logo a{
+    text-decoration: none;
+    color: var(--ma-couleur-tertiare);
+    
+ }
+
+ .contact .logo div{
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 35px;
+ }
+ .contact .logo{
+    margin-top: 125px;
+    display: flex;
  }
 
  footer{
